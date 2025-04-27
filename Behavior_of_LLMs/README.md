@@ -135,4 +135,41 @@ $$
 <li> Higher T (e.g., T = 1.5) → More random, diverse, and creative outputs </li>
 <br>
 Choosing the right temperature is important depending on whether you want "safe and reliable" text or "creative and surprising" text.
+<br>
 
+# What Happens When We Feed a Prompt to a Large Language Model?
+
+When we prompt a Large Language Model (LLM), we are essentially **fixing the first i tokens** — these are the words (or parts of words) we feed into the model for prediction.
+
+<br>
+
+As a result, the model generates a response that is **conditioned on the input prompt (x₁:i)**.
+
+<br>
+
+<b>In simple terms:</b><br>
+The model treats everything you type as the starting point and tries to predict the next most probable tokens based on it.
+
+<br>
+
+Now, if we set a limit like <b>max_tokens = t</b>, then the model will generate the next <b>(i+1) to (i+t)</b> tokens using the probabilistic method we discussed earlier.
+
+<br>
+
+<b>Formula-wise:</b><br>
+
+If you gave it tokens x₁ to xᵢ, then it will predict:
+
+<br>
+
+$$
+x_{i+1}, x_{i+2}, ..., x_{i+t}
+$$
+
+<br>
+
+where each next token depends on all the previous tokens.
+
+<br>
+
+Thus, the final response is not random — it is shaped very strongly by the prompt you provide!
