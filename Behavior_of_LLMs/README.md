@@ -177,77 +177,58 @@ Thus, the final response is not random — it is shaped very strongly by the pro
 
 # Basic Capabilities of Large Language Models
 
-Large Language Models (LLMs) can perform well at a variety of tasks, which can be broadly classified into:
+Large Language Models (LLMs) can perform well at a variety of tasks.  
+Broadly, their capabilities can be grouped into:
 
 <br>
 
-<li>
-<b>Summarization</b><br>
-LLMs can act as powerful summarization agents for news articles, scientific research, R&D reports, emails, codebases, and more.
+## 1. Summarization
+LLMs can create concise or detailed summaries from large documents like:
+- News articles
+- Research papers
+- Emails
+- Code files
+
+**Key abilities:**
+- Create short or long summaries based on user needs
+- Identify the focus or main theme of the content
+- Tailor summaries depending on the target audience
+- Extract just the key points if a brief overview is desired
 
 <br>
 
-<b>For summarization purposes, LLMs can:</b>
-<ul>
-<li>Create short or long summaries as needed</li>
-<li>Identify the main focus or key theme of the summary</li>
-<li>Customize summaries based on the target audience</li>
-<li>Extract only key points if the user prefers a brief overview</li>
-</ul>
-</li>
+## 2. Text Transformation
+LLMs can transform text from one style, format, or language to another.
+
+**They are capable of:**
+- Translating text between different languages
+- Changing the tone (e.g., formal ↔ casual)
+- Correcting grammar and spelling
+- Translating code between programming languages (e.g., Python → Java)
+- Converting natural language descriptions into code (e.g., SQL, Python)
 
 <br>
 
-<li>
-<b>Text Transformation</b><br>
-Text transformation refers to converting one sequence of text into another — either keeping or changing the text length.
+## 3. Extraction
+LLMs can pull out important information from large text bodies.
+
+**They can extract:**
+- Sentiments (positive, negative, neutral)
+- Specific phrases or language patterns
+- Personally Identifiable Information (PII)
+- Entities like names, organizations, places, dates
+- Values, data points, or facts
+- Answers to specific questions
+- Main topics or themes
 
 <br>
 
-<b>LLMs are capable of:</b>
-<ul>
-<li>Language translation (e.g., English to French)</li>
-<li>Changing tone (e.g., formal to casual)</li>
-<li>Grammar and spelling correction</li>
-<li>Programming language translation (e.g., Python to Java)</li>
-<li>Converting natural language into code (e.g., SQL queries, scripts)</li>
-</ul>
-</li>
+## 4. Expansion
+LLMs can generate new and creative content across different areas.
 
-<br>
-
-<li>
-<b>Extraction</b><br>
-LLMs can extract important pieces of information from a body of text.
-
-<br>
-
-<b>They can extract:</b>
-<ul>
-<li>Sentiments (positive, negative, neutral)</li>
-<li>Specific phrases, constructions, or patterns</li>
-<li>Personally Identifiable Information (PII)</li>
-<li>Entities like names, locations, dates</li>
-<li>Key values or data points</li>
-<li>Answers to specific questions</li>
-<li>Topics or major themes</li>
-</ul>
-</li>
-
-<br>
-
-<li>
-<b>Expansion</b><br>
-LLMs are widely used for generating new content, offering creativity across different fields.
-
-<br>
-
-<b>They can generate:</b>
-<ul>
-<li>Creative content such as stories, poems, scripts</li>
-<li>Blogs, articles, and books across various subjects</li>
-<li>Ideas and brainstorming content (ideation)</li>
-<li>Email responses, proposals, and communication drafts</li>
-<li>Informative write-ups on any given topic</li>
-</ul>
-</li>
+**They are used for:**
+- Writing creative content (stories, poems, scripts)
+- Generating blogs, articles, or books
+- Idea generation (brainstorming, creative ideation)
+- Drafting email responses, proposals, and communication documents
+- Producing informative content on new or existing topics
