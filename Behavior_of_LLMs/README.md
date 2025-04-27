@@ -63,6 +63,7 @@ Thus, the model would prefer to generate the first sequence because it sounds mo
 > <b>In short:</b><br>
 > LLMs don't "understand" language the way humans do — they are <b>guessing</b> the most likely next word based on patterns they've seen during training.
 
+<br>
 
 # Must-Have Skills for a Language Model
 
@@ -71,19 +72,28 @@ Thus, the model would prefer to generate the first sequence because it sounds mo
 This helps the language model understand how words can be combined to form meaningful sentences, phrases, or utterances.  
 In simple words, it’s about knowing the "grammar rules" of language.
 </li>
-
 <br>
-
 <li>
 <b>World Knowledge</b><br>
 This gives the model an understanding of many different subjects, real-world facts, and common sense.  
 It helps the model make connections across various knowledge areas.
 </li>
-
 <br>
-
 <li>
 <b>Linguistic Knowledge</b><br>
 This means knowing detailed information about words — their meanings, relationships, synonyms, grammar, and how they fit together.  
 It allows the model to use language more accurately and naturally.
 </li>
+<br>
+
+# Training a Large Language Model
+
+A large language model is trained on a massive amount of text data.  
+This training data is collected from many sources, such as:
+
+<li> Open data available publicly on the internet </li>
+<li> Well-known common datasets created for research and AI training </li>
+<li> Specially gathered collections like books, encyclopedias, articles, and sometimes even social media posts </li>
+<br>
+The more diverse and rich the training data, the better the model becomes at understanding and generating human-like language.
+
