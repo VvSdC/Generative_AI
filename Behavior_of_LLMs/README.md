@@ -96,4 +96,30 @@ This training data is collected from many sources, such as:
 <li> Specially gathered collections like books, encyclopedias, articles, and sometimes even social media posts </li>
 <br>
 The more diverse and rich the training data, the better the model becomes at understanding and generating human-like language.
+<br>
 
+# How Language Models Generate Text
+Let's consider an auto-regressive language model.  
+An auto-regressive language model predicts the next token based on all previous tokens.
+<br>
+The probability of generating a sequence of L tokens (x₁, x₂, ..., xₗ) is:
+<br>
+P(x₁, x₂, ..., xₗ) = P(x₁) * P(x₂ | x₁) * P(x₃ | x₁, x₂) * P(x₄ | x₁, x₂, x₃) * ... * P(xₗ | x₁, x₂, ..., xₗ₋₁)
+<br>
+<b>For example:</b><br>
+P(the, sky, is, blue) = P(the) * P(sky | the) * P(is | the, sky) * P(blue | the, sky, is)
+<br>
+An auto-regressive model efficiently computes these probabilities step-by-step as it generates text.
+<br>
+
+# Controlling the Output with Temperature (T)
+A parameter called <b>Temperature (T)</b> is used to control how "random" or "creative" the model's outputs are.
+The formula adjusts as:
+<br>
+xᵢ = P(xᵢ | x₁, x₂, ..., xᵢ₋₁)^(1/T)
+<br>
+<b>What Temperature does:</b>
+<li> Lower T (e.g., T = 0.5) → More focused, predictable, and conservative outputs </li>
+<li> Higher T (e.g., T = 1.5) → More random, diverse, and creative outputs </li>
+<br>
+Choosing the right temperature is important depending on whether you want "safe and reliable" text or "creative and surprising" text.
