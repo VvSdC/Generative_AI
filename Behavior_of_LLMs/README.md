@@ -104,14 +104,18 @@ An auto-regressive language model predicts the next token based on all previous 
 <br>
 The probability of generating a sequence of L tokens (x₁, x₂, ..., xₗ) is:
 <br>
+
 $$
 P(x_1, x_2, ..., x_L) = P(x_1) \times P(x_2 | x_1) \times P(x_3 | x_1, x_2) \times P(x_4 | x_1, x_2, x_3) \times \dots \times P(x_L | x_1, x_2, ..., x_{L-1})
 $$
+
 <br>
 <b>For example:</b><br>
+
 $$
 P(\text{the}, \text{sky}, \text{is}, \text{blue}) = P(\text{the}) \times P(\text{sky} | \text{the}) \times P(\text{is} | \text{the}, \text{sky}) \times P(\text{blue} | \text{the}, \text{sky}, \text{is})
 $$
+
 <br>
 An auto-regressive model efficiently computes these probabilities step-by-step as it generates text.
 <br>
@@ -120,9 +124,11 @@ An auto-regressive model efficiently computes these probabilities step-by-step a
 A parameter called <b>Temperature (T)</b> is used to control how "random" or "creative" the model's outputs are.
 The formula adjusts as:
 <br>
+
 $$
 x_i = P(x_i | x_1, x_2, ..., x_{i-1})^{1/T}
 $$
+
 <br>
 <b>What Temperature does:</b>
 <li> Lower T (e.g., T = 0.5) → More focused, predictable, and conservative outputs </li>
