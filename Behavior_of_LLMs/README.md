@@ -135,7 +135,7 @@ $$
 <li> Higher T (e.g., T = 1.5) → More random, diverse, and creative outputs </li>
 <br>
 Choosing the right temperature is important depending on whether you want "safe and reliable" text or "creative and surprising" text.
-<br>
+<br><br>
 
 # What Happens When We Feed a Prompt to a Large Language Model?
 
@@ -173,3 +173,81 @@ where each next token depends on all the previous tokens.
 <br>
 
 Thus, the final response is not random — it is shaped very strongly by the prompt you provide!
+<br><br>
+
+# Basic Capabilities of Large Language Models
+
+Large Language Models (LLMs) can perform well at a variety of tasks, which can be broadly classified into:
+
+<br>
+
+<li>
+<b>Summarization</b><br>
+LLMs can act as powerful summarization agents for news articles, scientific research, R&D reports, emails, codebases, and more.
+
+<br>
+
+<b>For summarization purposes, LLMs can:</b>
+<ul>
+<li>Create short or long summaries as needed</li>
+<li>Identify the main focus or key theme of the summary</li>
+<li>Customize summaries based on the target audience</li>
+<li>Extract only key points if the user prefers a brief overview</li>
+</ul>
+</li>
+
+<br>
+
+<li>
+<b>Text Transformation</b><br>
+Text transformation refers to converting one sequence of text into another — either keeping or changing the text length.
+
+<br>
+
+<b>LLMs are capable of:</b>
+<ul>
+<li>Language translation (e.g., English to French)</li>
+<li>Changing tone (e.g., formal to casual)</li>
+<li>Grammar and spelling correction</li>
+<li>Programming language translation (e.g., Python to Java)</li>
+<li>Converting natural language into code (e.g., SQL queries, scripts)</li>
+</ul>
+</li>
+
+<br>
+
+<li>
+<b>Extraction</b><br>
+LLMs can extract important pieces of information from a body of text.
+
+<br>
+
+<b>They can extract:</b>
+<ul>
+<li>Sentiments (positive, negative, neutral)</li>
+<li>Specific phrases, constructions, or patterns</li>
+<li>Personally Identifiable Information (PII)</li>
+<li>Entities like names, locations, dates</li>
+<li>Key values or data points</li>
+<li>Answers to specific questions</li>
+<li>Topics or major themes</li>
+</ul>
+</li>
+
+<br>
+
+<li>
+<b>Expansion</b><br>
+LLMs are widely used for generating new content, offering creativity across different fields.
+
+<br>
+
+<b>They can generate:</b>
+<ul>
+<li>Creative content such as stories, poems, scripts</li>
+<li>Blogs, articles, and books across various subjects</li>
+<li>Ideas and brainstorming content (ideation)</li>
+<li>Email responses, proposals, and communication drafts</li>
+<li>Informative write-ups on any given topic</li>
+</ul>
+</li>
