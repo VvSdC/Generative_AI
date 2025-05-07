@@ -27,3 +27,14 @@
 - Fake content might not get caught in time and could cause harm.
 
 <br>
+
+## 3. Psychological Impact
+
+- People may start fully trusting everything AI says, even if it's wrong.
+- LLMs can sometimes create false or misleading content that *sounds* very convincing.
+- Over time, users might adopt extreme or biased views just because AI keeps presenting them that way.
+- As trust in AI grows, people might forget it’s just a tool — not a human or expert.
+- Talking to AI too much instead of real people can make us feel distant, frustrated, or even stop trusting others.
+
+<br>
+
