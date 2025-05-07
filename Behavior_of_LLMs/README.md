@@ -1,7 +1,7 @@
 # Understanding the Behavior of Large Language Models (LLMs)
 
 ## Table of Contents
-- [Understanding the Behavior of Large Language Models (LLMs)](#understanding-the-behavior-of-large-language-models-llms)
+- [Understanding the Behavior of LLMs](#understanding-the-behavior-of-large-language-models-llms)
 - [How Language Models Work (A Simple Explanation)](#how-language-models-work-a-simple-explanation)
 - [Must-Have Skills for a Language Model](#must-have-skills-for-a-language-model)
 - [Training a Large Language Model](#training-a-large-language-model)
@@ -9,11 +9,8 @@
 - [Controlling the Output with Temperature (T)](#controlling-the-output-with-temperature-t)
 - [What Happens When We Feed a Prompt to a Large Language Model?](#what-happens-when-we-feed-a-prompt-to-a-large-language-model)
 - [Basic Capabilities of Large Language Models](#basic-capabilities-of-large-language-models)
-  - [1. Summarization](#1-summarization)
-  - [2. Text Transformation](#2-text-transformation)
-  - [3. Extraction](#3-extraction)
-  - [4. Expansion](#4-expansion)
 
+<br>
 
 # Understanding the Behavior of Large Language Models (LLMs)
 
@@ -63,13 +60,13 @@ Imagine this:
 
 # Example
 
-Suppose the vocabulary contains:
-<b>V = {earth, the, is, planet, a, spherical}</b>
+Suppose the vocabulary contains:  
+<b>V = {moon, the, is, satellite, a, natural}</b>
 
 The language model might assign probabilities like this:
-<li> P(the, earth, is, a, spherical, planet) → very high probability ✅ </li>
-<li> P(a, spherical, planet, is, the, earth) → medium probability </li>
-<li> P(a, the, is, earth, spherical, planet) → low probability ❌ </li>
+<li> P(the, moon, is, a, natural, satellite) → very high probability ✅ </li>
+<li> P(a, natural, satellite, is, the, moon) → medium probability </li>
+<li> P(a, the, is, moon, natural, satellite) → low probability ❌ </li>
 
 <br>
 
@@ -132,6 +129,8 @@ An auto-regressive language model predicts the next token based on all previous 
 
 The probability of generating a sequence of L tokens (x₁, x₂, ..., xₗ) is:
 
+<br>
+
 $$
 P(x_1, x_2, ..., x_L) = P(x_1) \times P(x_2 | x_1) \times P(x_3 | x_1, x_2) \times P(x_4 | x_1, x_2, x_3) \times \dots \times P(x_L | x_1, x_2, ..., x_{L-1})
 $$
@@ -141,7 +140,7 @@ $$
 <b>For example:</b><br>
 
 $$
-P(\text{the}, \text{sky}, \text{is}, \text{blue}) = P(\text{the}) \times P(\text{sky} | \text{the}) \times P(\text{is} | \text{the}, \text{sky}) \times P(\text{blue} | \text{the}, \text{sky}, \text{is})
+P(\text{the}, \text{forest}, \text{is}, \text{quiet}) = P(\text{the}) \times P(\text{forest} | \text{the}) \times P(\text{is} | \text{the}, \text{forest}) \times P(\text{quiet} | \text{the}, \text{forest}, \text{is})
 $$
 
 <br>
@@ -155,6 +154,8 @@ An auto-regressive model efficiently computes these probabilities step-by-step a
 A parameter called <b>Temperature (T)</b> is used to control how "random" or "creative" the model's outputs are.  
 The formula adjusts as:
 
+<br>
+
 $$
 x_i = P(x_i | x_1, x_2, ..., x_{i-1})^{1/T}
 $$
@@ -162,8 +163,8 @@ $$
 <br>
 
 <b>What Temperature does:</b>
-<li> Lower T (e.g., T = 0.5) → More focused, predictable, and conservative outputs </li>
-<li> Higher T (e.g., T = 1.5) → More random, diverse, and creative outputs </li>
+<li> Lower T (e.g., T = 0.5) → The model sticks to the safest, most logical responses </li>
+<li> Higher T (e.g., T = 1.5) → The model might surprise you with creative or unexpected answers </li>
 
 <br>
 
@@ -193,6 +194,8 @@ Now, if we set a limit like <b>max_tokens = t</b>, then the model will generate 
 <b>Formula-wise:</b><br>
 
 If you gave it tokens x₁ to xᵢ, then it will predict:
+
+<br>
 
 $$
 x_{i+1}, x_{i+2}, ..., x_{i+t}
