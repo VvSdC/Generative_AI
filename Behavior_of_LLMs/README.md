@@ -1,5 +1,22 @@
 # Understanding the Behavior of Large Language Models (LLMs)
 
+## Table of Contents
+- [Understanding the Behavior of Large Language Models (LLMs)](#understanding-the-behavior-of-large-language-models-llms)
+- [How Language Models Work (A Simple Explanation)](#how-language-models-work-a-simple-explanation)
+- [Must-Have Skills for a Language Model](#must-have-skills-for-a-language-model)
+- [Training a Large Language Model](#training-a-large-language-model)
+- [How Language Models Generate Text](#how-language-models-generate-text)
+- [Controlling the Output with Temperature (T)](#controlling-the-output-with-temperature-t)
+- [What Happens When We Feed a Prompt to a Large Language Model?](#what-happens-when-we-feed-a-prompt-to-a-large-language-model)
+- [Basic Capabilities of Large Language Models](#basic-capabilities-of-large-language-models)
+  - [1. Summarization](#1-summarization)
+  - [2. Text Transformation](#2-text-transformation)
+  - [3. Extraction](#3-extraction)
+  - [4. Expansion](#4-expansion)
+
+
+# Understanding the Behavior of Large Language Models (LLMs)
+
 Large Language Models (LLMs) like ChatGPT, Claude, and others are becoming a big part of our daily work and lives. It’s natural to think that LLMs:
 <li> Help extract information quickly </li>
 <li> Unlock the power of Artificial Intelligence (AI) </li>
@@ -72,18 +89,23 @@ Thus, the model would prefer to generate the first sequence because it sounds mo
 This helps the language model understand how words can be combined to form meaningful sentences, phrases, or utterances.  
 In simple words, it’s about knowing the "grammar rules" of language.
 </li>
+
 <br>
+
 <li>
 <b>World Knowledge</b><br>
 This gives the model an understanding of many different subjects, real-world facts, and common sense.  
 It helps the model make connections across various knowledge areas.
 </li>
+
 <br>
+
 <li>
 <b>Linguistic Knowledge</b><br>
 This means knowing detailed information about words — their meanings, relationships, synonyms, grammar, and how they fit together.  
 It allows the model to use language more accurately and naturally.
 </li>
+
 <br>
 
 # Training a Large Language Model
@@ -94,22 +116,28 @@ This training data is collected from many sources, such as:
 <li> Open data available publicly on the internet </li>
 <li> Well-known common datasets created for research and AI training </li>
 <li> Specially gathered collections like books, encyclopedias, articles, and sometimes even social media posts </li>
+
 <br>
+
 The more diverse and rich the training data, the better the model becomes at understanding and generating human-like language.
+
 <br>
 
 # How Language Models Generate Text
+
 Let's consider an auto-regressive language model.  
 An auto-regressive language model predicts the next token based on all previous tokens.
+
 <br>
+
 The probability of generating a sequence of L tokens (x₁, x₂, ..., xₗ) is:
-<br>
 
 $$
 P(x_1, x_2, ..., x_L) = P(x_1) \times P(x_2 | x_1) \times P(x_3 | x_1, x_2) \times P(x_4 | x_1, x_2, x_3) \times \dots \times P(x_L | x_1, x_2, ..., x_{L-1})
 $$
 
 <br>
+
 <b>For example:</b><br>
 
 $$
@@ -117,25 +145,31 @@ P(\text{the}, \text{sky}, \text{is}, \text{blue}) = P(\text{the}) \times P(\text
 $$
 
 <br>
+
 An auto-regressive model efficiently computes these probabilities step-by-step as it generates text.
+
 <br>
 
 # Controlling the Output with Temperature (T)
-A parameter called <b>Temperature (T)</b> is used to control how "random" or "creative" the model's outputs are.
+
+A parameter called <b>Temperature (T)</b> is used to control how "random" or "creative" the model's outputs are.  
 The formula adjusts as:
-<br>
 
 $$
 x_i = P(x_i | x_1, x_2, ..., x_{i-1})^{1/T}
 $$
 
 <br>
+
 <b>What Temperature does:</b>
 <li> Lower T (e.g., T = 0.5) → More focused, predictable, and conservative outputs </li>
 <li> Higher T (e.g., T = 1.5) → More random, diverse, and creative outputs </li>
+
 <br>
+
 Choosing the right temperature is important depending on whether you want "safe and reliable" text or "creative and surprising" text.
-<br><br>
+
+<br>
 
 # What Happens When We Feed a Prompt to a Large Language Model?
 
@@ -160,8 +194,6 @@ Now, if we set a limit like <b>max_tokens = t</b>, then the model will generate 
 
 If you gave it tokens x₁ to xᵢ, then it will predict:
 
-<br>
-
 $$
 x_{i+1}, x_{i+2}, ..., x_{i+t}
 $$
@@ -173,7 +205,8 @@ where each next token depends on all the previous tokens.
 <br>
 
 Thus, the final response is not random — it is shaped very strongly by the prompt you provide!
-<br><br>
+
+<br>
 
 # Basic Capabilities of Large Language Models
 
@@ -183,6 +216,7 @@ Broadly, their capabilities can be grouped into:
 <br>
 
 ## 1. Summarization
+
 LLMs can create concise or detailed summaries from large documents like:
 - News articles
 - Research papers
@@ -198,6 +232,7 @@ LLMs can create concise or detailed summaries from large documents like:
 <br>
 
 ## 2. Text Transformation
+
 LLMs can transform text from one style, format, or language to another.
 
 **They are capable of:**
@@ -210,6 +245,7 @@ LLMs can transform text from one style, format, or language to another.
 <br>
 
 ## 3. Extraction
+
 LLMs can pull out important information from large text bodies.
 
 **They can extract:**
@@ -224,6 +260,7 @@ LLMs can pull out important information from large text bodies.
 <br>
 
 ## 4. Expansion
+
 LLMs can generate new and creative content across different areas.
 
 **They are used for:**
