@@ -1,5 +1,14 @@
 # Potential Harms of Large Language Models
 
+## Table of Contents
+- [1. Loss of Human Creativity](#1-loss-of-human-creativity)
+- [2. Too Much Dependence on AI](#2-too-much-dependence-on-ai)
+- [3. Problems with Copyright and Trust](#3-problems-with-copyright-and-trust)
+- [4. Psychological Impact](#4-psychological-impact)
+- [5. Data Privacy](#5-data-privacy)
+- [6. Replacing Humans in Jobs](#6-replacing-humans-in-jobs)
+- [7. Vulnerability Due to Prompt Hacking](#7-vulnerability-due-to-prompt-hacking)
+
 <br>
 
 ## 1. Loss of Human Creativity
@@ -28,7 +37,7 @@
 
 <br>
 
-## 3. Psychological Impact
+## 4. Psychological Impact
 
 - People may start fully trusting everything AI says, even if it's wrong.
 - LLMs can sometimes create false or misleading content that *sounds* very convincing.
@@ -38,3 +47,32 @@
 
 <br>
 
+## 5. Data Privacy
+
+- LLMs are trained on large datasets, which might include personal or sensitive user information (PII).
+- This information should be removed before training, but that doesn't always happen.
+- Some models also store user inputs (questions and responses) for a short time.
+- If this data is kept too long, used to improve the model, or leaked in a data breach, it can lead to serious privacy issues.
+
+<br>
+
+## 6. Replacing Humans in Jobs
+
+- AI can now create content, give advice, and help make decisions — things that many jobs require.
+- This raises concerns that AI could take over many human jobs.
+- Goldman Sachs estimated that around 300 million jobs could be lost or changed because of AI.
+- AI is fast and accurate, and can work across many different fields.
+- With advanced tools and LLM-powered agents, AI is getting even more capable.
+- In the future, people may need to become skilled at guiding AI and double-checking its outputs, rather than doing the tasks themselves.
+
+<br>
+
+## 7. Vulnerability Due to Prompt Hacking
+
+- Prompt hacking can trick AI systems into revealing hidden prompts or internal system details.
+- Attackers may use prompt injection to break how an AI application works.
+- Jailbreak techniques can force models to generate content that goes against safety rules.
+- People around the world often try to find ways to bypass these restrictions.
+- As they experiment, new weaknesses — and even unexpected behaviors — of LLMs are being discovered.
+
+<br>
