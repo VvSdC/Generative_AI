@@ -58,6 +58,36 @@ The table below shows some popular LLMs and the main datasets they were trained 
 
 ## Systematic or Unintentional Bias in Data
 
+- Some common areas where data bias may exist are complex and sensitive issues such as racism, gender and sexuality, politics, religion, world affairs, climate change, development, and sustainability.
+- Global literature, opinions, news, discussions, and reasoning often reflect the beliefs, value systems, and opinions shaped by specific geographies, cultures, faiths, and historical events.
+- When language models are trained on such naturally skewed data, the resulting bias is reflected in both model behavior and output.
 
+### Different Types of Bias
+
+| **Bias Type**                | **Description**                                      |
+|-----------------------------|------------------------------------------------------|
+| Demographic bias            | Over- or under-representation of certain groups      |
+| Linguistic bias             | Less prevalent languages are underrepresented        |
+| Temporal bias               | Data limited to a specific time period               |
+| Confirmation bias           | Outputs reinforce specific beliefs or viewpoints     |
+| Discrimination and stereotypes | Reflects societal prejudices embedded in data     |
+
+
+- Bias can exist both intentionally and unintentionally in the data we collect or analyze. It often stems from natural human perspectives, social systems, or historical context. Below are some common causes and examples of data bias:
+
+| **Cause of Data Bias**      | **Examples**                                                                 |
+|----------------------------|------------------------------------------------------------------------------|
+| Opinion differences         | - Social issues  <br> - Climate change  <br> - International relations       |
+| Belief differences          | - Cultural beliefs  <br> - Religious beliefs                                 |
+| Historical imbalances       | - Marginalization of women  <br> - Colonial influences                       |
+| Systematic differences      | - Access to healthcare  <br> - Legal representation  <br> - Socio-economic status <br> - Political power |
 
 <br>
+
+## Bias Due to Unclean or Unvetted Data
+
+- This type of bias arises when language models are trained on data that hasn't been properly cleaned or vetted. Filtering can be rule-based, manual, or automated.
+- Unclean data may contain unethical, violent, or illegal content. Since language models do not inherently understand ethical or legal boundaries, they may learn and reproduce such harmful content.
+- Most models include explicit disclaimers in their release notes acknowledging this risk and cautioning users accordingly.
+
+
