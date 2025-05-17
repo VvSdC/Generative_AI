@@ -1,0 +1,1 @@
+![Moore's law for large language models](image.png)

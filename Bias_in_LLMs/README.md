@@ -62,6 +62,8 @@ The table below shows some popular LLMs and the main datasets they were trained 
 - Global literature, opinions, news, discussions, and reasoning often reflect the beliefs, value systems, and opinions shaped by specific geographies, cultures, faiths, and historical events.
 - When language models are trained on such naturally skewed data, the resulting bias is reflected in both model behavior and output.
 
+<br>
+
 ### Different Types of Bias
 
 | **Bias Type**                | **Description**                                      |
@@ -72,6 +74,7 @@ The table below shows some popular LLMs and the main datasets they were trained 
 | Confirmation bias           | Outputs reinforce specific beliefs or viewpoints     |
 | Discrimination and stereotypes | Reflects societal prejudices embedded in data     |
 
+<br>
 
 - Bias can exist both intentionally and unintentionally in the data we collect or analyze. It often stems from natural human perspectives, social systems, or historical context. Below are some common causes and examples of data bias:
 
@@ -91,3 +94,24 @@ The table below shows some popular LLMs and the main datasets they were trained 
 - Most models include explicit disclaimers in their release notes acknowledging this risk and cautioning users accordingly.
 
 
+## Bias in Fine-Tuning Data
+
+- Some models are pre-trained for specific tasks using relatively small datasets.
+- If the fine-tuning data is incomplete, incorrect, or biased, the resulting model may fail to perform its intended task effectively.
+- After fine-tuning, such a model is often unsuitable for general-purpose use.
+- Intentionally introducing incorrect or malicious data during training is known as **data poisoning**.
+
+
+## Bias in Algorithm
+
+- The training process itself can introduce significant differences in model performance.
+- Factors such as model parameters, neural network architecture, and the availability or utilization of computing resources (e.g., GPUs/TPUs) can lead to variations in output.
+- These differences may result in biased behavior or inconsistent performance across otherwise similar models.
+
+
+## Output Bias
+
+- Language models may occasionally generate content that reflects bias.
+- Representational bias occurs when the model generalizes negatively about specific social groups.
+- Since language models are trained on real-world data—which is inherently biased—they tend to inherit and reflect those societal biases.
+- When a language model makes authoritative statements containing social bias, it risks reinforcing and amplifying those stereotypes in society.
