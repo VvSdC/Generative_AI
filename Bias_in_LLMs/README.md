@@ -2,7 +2,22 @@
 
 This document explains where bias comes from in large language models (LLMs) and how it affects what these models learn and say. It also looks at the impact of biased data and algorithms.
 
-<br>
+---
+
+## 📌 Table of Contents
+
+- [Introduction](#introduction)
+- [Sources of Bias in LLMs](#sources-of-bias-in-llms)
+- [Training Data for Popular LLMs](#training-data-for-popular-llms)
+- [Over-representation, Under-representation, or Wrong Information](#over-representation-under-representation-or-wrong-information)
+- [Systematic or Unintentional Bias in Data](#systematic-or-unintentional-bias-in-data)
+  - [Different Types of Bias](#different-types-of-bias)
+- [Bias Due to Unclean or Unvetted Data](#bias-due-to-unclean-or-unvetted-data)
+- [Bias in Fine-Tuning Data](#bias-in-fine-tuning-data)
+- [Bias in Algorithm](#bias-in-algorithm)
+- [Output Bias](#output-bias)
+
+---
 
 ## Introduction
 
@@ -93,6 +108,7 @@ The table below shows some popular LLMs and the main datasets they were trained 
 - Unclean data may contain unethical, violent, or illegal content. Since language models do not inherently understand ethical or legal boundaries, they may learn and reproduce such harmful content.
 - Most models include explicit disclaimers in their release notes acknowledging this risk and cautioning users accordingly.
 
+<br>
 
 ## Bias in Fine-Tuning Data
 
@@ -101,6 +117,7 @@ The table below shows some popular LLMs and the main datasets they were trained 
 - After fine-tuning, such a model is often unsuitable for general-purpose use.
 - Intentionally introducing incorrect or malicious data during training is known as **data poisoning**.
 
+<br>
 
 ## Bias in Algorithm
 
@@ -108,6 +125,7 @@ The table below shows some popular LLMs and the main datasets they were trained 
 - Factors such as model parameters, neural network architecture, and the availability or utilization of computing resources (e.g., GPUs/TPUs) can lead to variations in output.
 - These differences may result in biased behavior or inconsistent performance across otherwise similar models.
 
+<br>
 
 ## Output Bias
 
