@@ -30,7 +30,7 @@
 
 ## Stochastic Parrots
 
-> ^ A metaphor used to explain the idea that large language models, although capable of generating believable language, do not actually understand the meaning behind the language they process.
+> A metaphor used to explain the idea that large language models, although capable of generating believable language, do not actually understand the meaning behind the language they process.
 
 - Earlier language models were based on n-gram methods and could generate contextual content by analyzing multiple words together. This allowed them to consider contexts of over 2,000 words.
 - As newer language models have been trained on more and more data, their ability to respond to a wide variety of user queries has improved. However, they still have not become more intelligent — they do not truly understand us better.
@@ -77,6 +77,7 @@
   - ❌ It doesn’t understand the **question**
   - ❌ It doesn’t verify the **correctness** of the response
   - ❌ It doesn’t grasp **context** or **appropriateness**
+<br>
 
 > ⚠️ **This lack of true understanding can lead to misleading or harmful outputs, especially in critical applications.**
 
@@ -84,6 +85,7 @@
 - The responses from LLMs are simply **related concepts stitched together probabilistically** — not the result of understanding or reasoning.
 - Humans are prone to **accepting such fluent text as true**, especially when it sounds logical or natural.
 - Language models **do not understand** the **user's context** or the **user's thought process** during communication.
+<br>
 
 > 🔄 **Important Note:** Conversation with a Large Language Model is essentially **one-way** — the model generates responses without truly engaging, interpreting, or understanding the user.
 
