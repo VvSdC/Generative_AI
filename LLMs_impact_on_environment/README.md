@@ -1,12 +1,20 @@
-# Impact of Large Language Models on environment
+# 🌎 Impact of Large Language Models on the Environment
 
-- Negative impacts of large language models :
-    - Carbon footprint
-    - Energy consumption
+---
 
-<br>
+## 📚 Table of Contents
 
-### What is Carbon Footprint
+- [What is Carbon Footprint](#what-is-carbon-footprint)
+- [Carbon Footprint of Large Language Models](#carbon-footprint-of-large-language-models)
+- [Different Types of Emissions Due to Large Language Models](#different-types-of-emissions-due-to-large-language-models)
+- [An Interesting Study](#an-interesting-study)
+- [💧 Water Footprint](#-water-footprint)
+- [🛢️ Pollution](#️-pollution)
+- [🌍 Resource Depletion](#-resource-depletion)
+
+---
+
+## What is Carbon Footprint
 
 > Carbon footprint refers to the **total amount of greenhouse gases** emitted directly or indirectly by an activity, product, or organization, typically measured in terms of **carbon dioxide equivalents (CO₂e)**.
 
@@ -17,11 +25,12 @@
 - 🕒 **Carbon dioxide** has an atmospheric lifetime of **300–1000 years**, making it one of the **most harmful greenhouse gases**.
 - 🌡️ The increase in greenhouse gas emissions leads to **global warming**.
 - 🧮 A **carbon footprint** accounts for all the greenhouse gas emissions caused by a specific **activity**, **product**, or **company**.
+
 > ⚠️ **Anything that increases the carbon footprint poses a serious threat to environmental sustainability.**
 
-<br>
+---
 
-### Carbon Footprint of Large Language Models
+## Carbon Footprint of Large Language Models
 
 > Large Language Models (LLMs) have a significant carbon footprint due to their high energy consumption throughout their lifecycle.
 
@@ -41,39 +50,42 @@
   - Optimizing **data center cooling and energy management**  
   - Implementing solutions like the **BCOOLER algorithm** for energy-efficient training
 
-<br>
+---
 
-### Different Types of Emissions Due to Large Language Models
+## Different Types of Emissions Due to Large Language Models
 
 > Training and deploying large language models contribute to various forms of carbon emissions, both direct and indirect.
 
-#### 1. ⚙️ Embodied Emissions  
+### 1. ⚙️ Embodied Emissions  
 Emissions associated with the **materials, production, and deployment** of computing infrastructure used in machine learning.
+
 - **Dynamic Consumption**
   - Refers to the **electricity required to power the model during training**.
   - Measures the **energy consumed by servers** actively running training tasks.
+
 - **Idle Power Consumption**
   - Energy consumed by **servers that are powered on but not actively used**.
   - Also includes energy used by supporting infrastructure just to **keep systems ready**.
+
 - **Infrastructure Consumption**
   - Energy used by **data center infrastructure**, including:
     - Networking equipment  
     - Cooling systems  
     - Maintenance operations  
-#### 2. 🔄 Operational Emissions  
+
+### 2. 🔄 Operational Emissions  
 Emissions resulting from **real-time use**, such as when models are deployed to handle user queries, including power required to run inference and maintain system availability.
 
-<br>
+---
 
-### An Interesting Study
+## An Interesting Study
 
 > 🔍 **Conclusion from Facebook AI Research:**  
 > While the overall carbon footprint of machine learning models is currently smaller than many other sources, it is growing rapidly and will soon become a significant concern.  
 > A rough power consumption breakdown of AI infrastructure shows **10% for experimentation, 20% for training, and 70% for inference**.  
 > This reveals that **training emissions are just the tip of the iceberg**, and **inference — the most frequently occurring phase — is the largest contributor** to the long-term environmental impact of large language models.
 
-
-<br>
+---
 
 ## 💧 Water Footprint
 
@@ -104,4 +116,5 @@ Emissions resulting from **real-time use**, such as when models are deployed to 
   - **Natural gas**
   - **Fossil fuels**
   - **Nuclear energy**
-- ⚠️ Roughly **85% of the world's energy** is generated from **non-renewable sources**, making AI development a contributor to **resource depletion**.
+
+⚠️ Roughly **85% of the world's energy** is generated from **non-renewable sources**, making AI development a contributor to **resource depletion**.
