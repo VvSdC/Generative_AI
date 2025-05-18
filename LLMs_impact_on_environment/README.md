@@ -19,13 +19,27 @@
 > ⚠️ **Anything that increases the carbon footprint poses a serious threat to environmental sustainability.**
 
 
-### Carbon footprint of Large Language Models
+### Carbon Footprint of Large Language Models
 
-- The computing machinery that powers the large language models consumes energy.
-- Energy production is a process that has its own carbon footprint.
-- Training a 175 billion parameter language model consumes energy that is enough to power an average american home for 40 years.
-- Large Language Models consume energy during training and inference phases.
-- The data centers that house the large language models may contribute additionally to greenhouse gas emissions due to air conditioning needs etc.
+> Large Language Models (LLMs) have a significant carbon footprint due to their high energy consumption throughout their lifecycle.
+
+- ⚡ The **computing hardware** required to train and run LLMs consumes a **large amount of energy**.
+- 🔄 Since **energy production itself generates emissions**, the energy consumed by LLMs indirectly contributes to their **carbon footprint**.
+- 📊 **Training a 175 billion parameter language model** can consume as much energy as required to power an **average American home for 40 years**.
+- ⚙️ LLMs consume energy during both:
+  - **Training phase** — when the model learns from data.
+  - **Inference phase** — when the model generates responses.
+- 🏢 **Data centers** housing these models also contribute to emissions due to:
+  - High **air conditioning needs**  
+  - Continuous **power supply requirements**
+- 🏗️ The **manufacturing and maintenance** of infrastructure (servers, cooling systems, etc.) have their own carbon footprints and contribute to the **depletion of natural resources**.
+
+> ✅ **Reducing the carbon footprint** of LLMs requires:
+  - Designing **efficient training algorithms**
+  - Optimizing **data center cooling and energy management**  
+  - Implementing solutions like the **BCOOLER algorithm** for energy-efficient training
+
+
 
 ### Different Types of Emissions Due to Large Language Models
 
@@ -46,3 +60,11 @@ Emissions associated with the **materials, production, and deployment** of compu
     - Maintenance operations  
 #### 2. 🔄 Operational Emissions  
 Emissions resulting from **real-time use**, such as when models are deployed to handle user queries, including power required to run inference and maintain system availability.
+
+
+### An Interesting Study
+
+> 🔍 **Conclusion from Facebook AI Research:**  
+> While the overall carbon footprint of machine learning models is currently smaller than many other sources, it is growing rapidly and will soon become a significant concern.  
+> A rough power consumption breakdown of AI infrastructure shows **10% for experimentation, 20% for training, and 70% for inference**.  
+> This reveals that **training emissions are just the tip of the iceberg**, and **inference — the most frequently occurring phase — is the largest contributor** to the long-term environmental impact of large language models.
