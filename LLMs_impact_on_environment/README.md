@@ -11,6 +11,7 @@
 - [💧 Water Footprint](#-water-footprint)
 - [🛢️ Pollution](#️-pollution)
 - [🌍 Resource Depletion](#-resource-depletion)
+- [Mitigating Environmental Harm](#-mitigating-environmental-harm)
 
 ---
 
@@ -118,3 +119,16 @@ Emissions resulting from **real-time use**, such as when models are deployed to 
   - **Nuclear energy**
 
 ⚠️ Roughly **85% of the world's energy** is generated from **non-renewable sources**, making AI development a contributor to **resource depletion**.
+
+
+## 🌱 Mitigating Environmental Harm
+
+> To reduce the environmental impact of AI, it is crucial to **standardize development practices** and adopt **sustainable methods**.
+
+- ✅ Implement **accurate tracking** of the carbon footprint of AI systems.
+- 🧾 Ensure **transparency** in reporting the **carbon emissions** of models and infrastructure.
+- 💡 Invest in and develop **energy-efficient hardware** to reduce power consumption.
+- ☀️ Shift to **renewable energy sources** (solar, wind, hydro) to power data centers and training processes.
+- 🧠 Design **optimized models** that require **less hardware** and adopt **efficient architectures**.
+- 📢 Promote **awareness** about the environmental impact of AI and the **importance of sustainability** in tech development.
+

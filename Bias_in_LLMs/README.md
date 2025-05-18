@@ -16,6 +16,7 @@ This document explains where bias comes from in large language models (LLMs) and
 - [Bias in Fine-Tuning Data](#bias-in-fine-tuning-data)
 - [Bias in Algorithm](#bias-in-algorithm)
 - [Output Bias](#output-bias)
+- [Mitigating Bias](#-mitigating-bias)
 
 ---
 
@@ -133,3 +134,15 @@ The table below shows some popular LLMs and the main datasets they were trained 
 - Representational bias occurs when the model generalizes negatively about specific social groups.
 - Since language models are trained on real-world data—which is inherently biased—they tend to inherit and reflect those societal biases.
 - When a language model makes authoritative statements containing social bias, it risks reinforcing and amplifying those stereotypes in society.
+
+<br>
+
+### 🧠 Mitigating Bias
+
+> Reducing bias in AI models is essential to ensure fairness, inclusivity, and ethical use.
+
+- 🧹 **Manually vet training data** to eliminate biases related to **religion, region, race, gender**, and other sensitive attributes.
+- 👩‍💼 Involve **Subject Matter Experts (SMEs)** to curate, correct, and annotate data — helping to identify and mitigate biased content.
+- 🔁 Use **Reinforcement Learning from Human Feedback (RLHF)** to help reduce **algorithmic bias**, even when the training data itself contains imperfections.
+- 🔍 Maintain **transparency** in data collection methods and clearly communicate **model limitations**, so users have realistic expectations.
+- ⚠️ Conduct **toxicity evaluations** before releasing models for public use to prevent harmful or offensive outputs.
