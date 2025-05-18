@@ -4,6 +4,7 @@
     - Carbon footprint
     - Energy consumption
 
+<br>
 
 ### What is Carbon Footprint
 
@@ -18,6 +19,7 @@
 - 🧮 A **carbon footprint** accounts for all the greenhouse gas emissions caused by a specific **activity**, **product**, or **company**.
 > ⚠️ **Anything that increases the carbon footprint poses a serious threat to environmental sustainability.**
 
+<br>
 
 ### Carbon Footprint of Large Language Models
 
@@ -39,7 +41,7 @@
   - Optimizing **data center cooling and energy management**  
   - Implementing solutions like the **BCOOLER algorithm** for energy-efficient training
 
-
+<br>
 
 ### Different Types of Emissions Due to Large Language Models
 
@@ -61,6 +63,7 @@ Emissions associated with the **materials, production, and deployment** of compu
 #### 2. 🔄 Operational Emissions  
 Emissions resulting from **real-time use**, such as when models are deployed to handle user queries, including power required to run inference and maintain system availability.
 
+<br>
 
 ### An Interesting Study
 
@@ -68,3 +71,37 @@ Emissions resulting from **real-time use**, such as when models are deployed to 
 > While the overall carbon footprint of machine learning models is currently smaller than many other sources, it is growing rapidly and will soon become a significant concern.  
 > A rough power consumption breakdown of AI infrastructure shows **10% for experimentation, 20% for training, and 70% for inference**.  
 > This reveals that **training emissions are just the tip of the iceberg**, and **inference — the most frequently occurring phase — is the largest contributor** to the long-term environmental impact of large language models.
+
+
+<br>
+
+## 💧 Water Footprint
+
+> In the context of AI, **water footprint** refers to the amount of water used, primarily for **cooling data centers**.
+
+- Data centers housing large AI models require extensive **cooling**, which consumes significant amounts of water.
+- Additionally, **electricity generation**, which powers these data centers, is the **second largest consumer of water**.
+- Treating water and **wastewater also consumes electricity**, creating a feedback loop of resource usage.
+
+---
+
+## 🛢️ Pollution
+
+> The environmental impact of AI infrastructure extends to **pollution of soil and water**, as well as hazardous **e-waste generation**.
+
+- Data centers may contribute to **soil and water pollution** through the **byproducts of cleaning and cooling systems**.
+- **Manufacturing computing hardware** results in large amounts of **electronic waste (e-waste)**, posing **disposal and recycling challenges**.
+- **Chip manufacturing** is particularly harmful, producing substantial amounts of **toxic waste**.
+
+---
+
+## 🌍 Resource Depletion
+
+> The infrastructure used to train and deploy AI models relies heavily on **natural resources**, many of which are **non-renewable**.
+
+- The **manufacturing and operation** of training, deployment, and inference hardware consume resources like:
+  - **Coal**
+  - **Natural gas**
+  - **Fossil fuels**
+  - **Nuclear energy**
+- ⚠️ Roughly **85% of the world's energy** is generated from **non-renewable sources**, making AI development a contributor to **resource depletion**.
